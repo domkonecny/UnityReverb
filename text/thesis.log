@@ -1,0 +1,46 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.15)  15 OCT 2018 16:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**thesis.sty
+(./thesis.sty
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `thesis'.
+
+Package: thesis 2018/03/07v3.03LaTeX document class
+
+Styl 'thesis.sty' pro psani kvalifikacnich praci v(3.03) na VUT v Brne
+
+\type=\count80
+
+./thesis.sty:130: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 \newcount\type@
+                     semestral  \type@semestral=0
+? 
+./thesis.sty:130: Emergency stop.
+ ...                                              
+                                                  
+l.130 \newcount\type@
+                     semestral  \type@semestral=0
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 31 strings out of 492649
+ 465 string characters out of 6129621
+ 57086 words of memory out of 5000000
+ 4012 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 7i,0n,10p,141b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+./thesis.sty:130:  ==> Fatal error occurred, no output PDF file produced!

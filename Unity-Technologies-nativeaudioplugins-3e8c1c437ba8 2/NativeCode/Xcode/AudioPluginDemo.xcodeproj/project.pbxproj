@@ -277,6 +277,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Plugins;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = AudioPluginDemo;
 				SDKROOT = macosx10.9;
@@ -296,6 +297,7 @@
 				GCC_MODEL_TUNING = G5;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Plugins;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = AudioPluginDemo;
 				SDKROOT = macosx10.9;
 				SKIP_INSTALL = NO;

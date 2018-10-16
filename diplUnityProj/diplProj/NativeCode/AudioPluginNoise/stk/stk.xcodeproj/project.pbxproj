@@ -1,0 +1,164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BA09307221679DF700D954B2 /* rawwaves */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rawwaves; sourceTree = "<group>"; };
+		BA09307321679DF700D954B2 /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		BA09307421679DF700D954B2 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		BA09307521679DF700D954B2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BA09307621679DF700D954B2 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		BA09307721679DF700D954B2 /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
+		BA09307821679DF700D954B2 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		BA09307921679DF700D954B2 /* projects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = projects; sourceTree = "<group>"; };
+		BA09307A21679DF700D954B2 /* INSTALL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = INSTALL.md; sourceTree = "<group>"; };
+		BA09307B21679DF700D954B2 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iOS; sourceTree = "<group>"; };
+		BA09307C21679DF700D954B2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA09307D21679DF700D954B2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BA09307E21679DF700D954B2 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		BA09307F21679DF700D954B2 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		BA09308021679DF700D954B2 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BA09306C21679DF700D954B2 = {
+			isa = PBXGroup;
+			children = (
+				BA09307221679DF700D954B2 /* rawwaves */,
+				BA09307321679DF700D954B2 /* configure.ac */,
+				BA09307421679DF700D954B2 /* .DS_Store */,
+				BA09307521679DF700D954B2 /* LICENSE */,
+				BA09307621679DF700D954B2 /* bin */,
+				BA09307721679DF700D954B2 /* config */,
+				BA09307821679DF700D954B2 /* include */,
+				BA09307921679DF700D954B2 /* projects */,
+				BA09307A21679DF700D954B2 /* INSTALL.md */,
+				BA09307B21679DF700D954B2 /* iOS */,
+				BA09307C21679DF700D954B2 /* README.md */,
+				BA09307D21679DF700D954B2 /* .gitignore */,
+				BA09307E21679DF700D954B2 /* doc */,
+				BA09307F21679DF700D954B2 /* Makefile.in */,
+				BA09308021679DF700D954B2 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		BA09307121679DF700D954B2 /* stk */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = BA09308121679DF700D954B2 /* Build configuration list for PBXLegacyTarget "stk" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/dominikkonecny/Documents/Práce/DiplomovaPrace/diplUnityProj/diplProj/NativeCode/AudioPluginNoise/stk";
+			dependencies = (
+			);
+			name = stk;
+			passBuildSettingsInEnvironment = 1;
+			productName = stk;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		BA09306D21679DF700D954B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = BA09307021679DF700D954B2 /* Build configuration list for PBXProject "stk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA09306C21679DF700D954B2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA09307121679DF700D954B2 /* stk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BA09306E21679DF700D954B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		BA09306F21679DF700D954B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		BA09308221679DF700D954B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = stk;
+			};
+			name = Debug;
+		};
+		BA09308321679DF700D954B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = stk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA09307021679DF700D954B2 /* Build configuration list for PBXProject "stk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA09306E21679DF700D954B2 /* Debug */,
+				BA09306F21679DF700D954B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA09308121679DF700D954B2 /* Build configuration list for PBXLegacyTarget "stk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA09308221679DF700D954B2 /* Debug */,
+				BA09308321679DF700D954B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA09306D21679DF700D954B2 /* Project object */;
+}
